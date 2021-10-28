@@ -1,0 +1,75 @@
+.widgetSm{
+    flex: 1;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    padding: 20px;
+    margin-right: 20px;
+    max-height: 300px;
+}
+
+.widgetchat{
+    flex: 1;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    padding: 20px;
+    margin-right: 20px;
+    max-height: 200px;
+    overflow: scroll;
+    overflow-x:hidden;
+}
+
+.submitchat{
+    margin-top: 20px;
+}
+
+.message {
+    background-color: rgb(245, 83, 170);
+    border-radius: 20px;
+    margin-top: 5px;
+    padding: 10px;
+    margin-bottom: 5px;
+    max-width: 220px;
+    flex: 1;
+    display: flex;
+  }
+
+.message_style{
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 20px;
+}
+
+.name_style{
+    font-size: 20px;
+    font-weight: 300;
+    margin-right: 10px;
+}
+
+.date_style{
+    font-size: 10px;
+    font-weight: 200;
+    margin-right: 15px;
+}
+
+
+.widgetSmTitle{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.widgetSmButton{
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    padding: 7px 10px;
+    background-color: #eeeef7;
+    color: #555;
+    cursor: pointer;
+}
+
+.widgetSmIcon{
+    font-size: 16px !important;
+    margin-right: 5px;
+}
+
